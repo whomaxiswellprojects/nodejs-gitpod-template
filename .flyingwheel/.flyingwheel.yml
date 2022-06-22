@@ -1,0 +1,13 @@
+version: 10
+language: javascript
+runtime: nodejs
+javascript_options:
+  web: false
+nodejs_options:
+  electron: false
+  express: false
+  web: false
+command_line:
+  args:
+    - -flyingwheel.options.main=index.js
+    - -flyingwheel.compilebase.main=index.js
