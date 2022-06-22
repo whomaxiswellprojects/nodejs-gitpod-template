@@ -1,6 +1,0 @@
-tasks:
-  - init: |
-      echo 'npm init'
-      npm init
-    command: |
-      echo 'Done Creating a nodejs Workspace'
